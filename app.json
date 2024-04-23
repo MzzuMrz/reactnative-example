@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "example-v6",
+    "owner": "exampleexpo",
+    "slug": "example-v6",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "examplev6",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/otf/Inter-Black.ttf"]
+        }
+      ]
+    ],
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "56fe9dd0-3718-4b11-98bb-8390534bedac"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.examplehealth.examplev6"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.examplehealth.examplev6"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
